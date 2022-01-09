@@ -904,13 +904,6 @@ DOMAIN-SUFFIX,vod.afreecatv.com
 DOMAIN-SUFFIX,standbygw.afreecatv.com
 DOMAIN-SUFFIX,.afreecatv.com
 
-# BiliBili國際
-DOMAIN,apiintl.biliapi.ne
-PROCESS-NAME,com.bilibili.app.in
-DOMAIN-SUFFIX,biliintl.com
-DOMAIN,apm-misaka.biliapi.ne
-PROCESS-NAME,com.bstar.intl
-
 # Carousell
 DOMAIN-SUFFIX,click.mail.carousell.com
 DOMAIN,click.mail.carousell.com/*
