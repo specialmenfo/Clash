@@ -1,7 +1,0 @@
-# BiliBili HK & TW
-DOMAIN-SUFFIX,app.bilibili.com
-DOMAIN,apiintl.biliapi.ne
-PROCESS-NAME,com.bilibili.app.in
-DOMAIN-SUFFIX,biliintl.com
-DOMAIN,apm-misaka.biliapi.ne
-PROCESS-NAME,com.bstar.intl
