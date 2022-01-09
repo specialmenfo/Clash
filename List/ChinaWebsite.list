@@ -178,3 +178,9 @@ DOMAIN-SUFFIX,hdslb.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
 DOMAIN-KEYWORD,bilibili
 IP-CIDR,203.107.1.65/32,no-resolve
+DOMAIN-SUFFIX,app.bilibili.com
+DOMAIN,apiintl.biliapi.ne
+PROCESS-NAME,com.bilibili.app.in
+DOMAIN-SUFFIX,biliintl.com
+DOMAIN,apm-misaka.biliapi.ne
+PROCESS-NAME,com.bstar.intl
