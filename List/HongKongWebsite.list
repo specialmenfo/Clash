@@ -1,48 +1,3 @@
-# Cloudflare
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,cloudflare-ipfs.com
-DOMAIN-SUFFIX,cloudflare-quic.com
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflare.net
-DOMAIN-SUFFIX,cloudflareapps.com
-DOMAIN-SUFFIX,cloudflarebolt.com
-DOMAIN-SUFFIX,cloudflareclient.com
-DOMAIN-SUFFIX,cloudflareinsights.com
-DOMAIN-SUFFIX,cloudflareok.com
-DOMAIN-SUFFIX,cloudflareresolve.com
-DOMAIN-SUFFIX,cloudflaressl.com
-DOMAIN-SUFFIX,cloudflarestatus.com
-DOMAIN-SUFFIX,cloudflarestream.com
-DOMAIN-SUFFIX,cloudflaretest.com
-DOMAIN-SUFFIX,cloudflarewarp.com
-DOMAIN-SUFFIX,one.one.one
-DOMAIN-SUFFIX,pages.dev
-DOMAIN-SUFFIX,trycloudflare.com
-DOMAIN-SUFFIX,videodelivery.net
-DOMAIN-SUFFIX,warp.plus
-DOMAIN-SUFFIX,workers.dev
-IP-CIDR,103.21.244.0/22,no-resolve
-IP-CIDR,103.22.200.0/22,no-resolve
-IP-CIDR,103.31.4.0/22,no-resolve
-IP-CIDR,104.16.0.0/12,no-resolve
-IP-CIDR,108.162.192.0/18,no-resolve
-IP-CIDR,131.0.72.0/22,no-resolve
-IP-CIDR,141.101.64.0/18,no-resolve
-IP-CIDR,162.158.0.0/15,no-resolve
-IP-CIDR,172.64.0.0/13,no-resolve
-IP-CIDR,173.245.48.0/20,no-resolve
-IP-CIDR,188.114.96.0/20,no-resolve
-IP-CIDR,190.93.240.0/20,no-resolve
-IP-CIDR,197.234.240.0/22,no-resolve
-IP-CIDR,198.41.128.0/17,no-resolve
-IP-CIDR6,2400:cb00::/32,no-resolve
-IP-CIDR6,2405:8100::/32,no-resolve
-IP-CIDR6,2405:b500::/32,no-resolve
-IP-CIDR6,2606:4700::/32,no-resolve
-IP-CIDR6,2803:f800::/32,no-resolve
-IP-CIDR6,2a06:98c0::/29,no-resolve
-IP-CIDR6,2c0f:f248::/32,no-resolve
-
 # Google
 DOMAIN-SUFFIX,0emm.com
 DOMAIN-SUFFIX,1e100.net
@@ -223,8 +178,6 @@ DOMAIN-SUFFIX,dialogflow.com
 DOMAIN-SUFFIX,digisfera.com
 DOMAIN-SUFFIX,digitalassetlinks.org
 DOMAIN-SUFFIX,digitalattackmap.com
-DOMAIN-SUFFIX,doubleclick.com
-DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,episodic.com
 DOMAIN-SUFFIX,fastlane.ci
 DOMAIN-SUFFIX,fastlane.tools
@@ -693,6 +646,9 @@ IP-CIDR,173.194.0.0/16,no-resolve
 IP-CIDR,216.73.80.0/20,no-resolve
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR6,2620:120:e000::/40,no-resolve
+USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
+USER-AGENT,*com.google.Drive*
+USER-AGENT,Google.Drive*
 PROCESS-NAME,backupandsync
 PROCESS-NAME,com.android.vending
 PROCESS-NAME,com.google.android.gms
@@ -877,9 +833,16 @@ DOMAIN-SUFFIX,ytimg.com
 IP-CIDR,172.110.32.0/21,no-resolve
 IP-CIDR,216.73.80.0/20,no-resolve
 IP-CIDR6,2620:120:e000::/40,no-resolve
+USER-AGENT,*youtube*
+USER-AGENT,YouTube*
+USER-AGENT,com.google.ios.youtube*
 
 # YouTubeMusic
 DOMAIN,music.youtube.com
+USER-AGENT,*YouTubeMusic*
+USER-AGENT,*com.google.ios.youtubemusic*
+USER-AGENT,YouTubeMusic*
+USER-AGENT,com.google.ios.youtubemusic*
 
 # Amazone
 DOMAIN-SUFFIX,a2z.com
@@ -1001,7 +964,6 @@ DOMAIN-SUFFIX,awstrack.me
 DOMAIN-SUFFIX,awstrust.com
 DOMAIN-SUFFIX,boxofficemojo.com
 DOMAIN-SUFFIX,cdkworkshop.com
-DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,containersonaws.com
 DOMAIN-SUFFIX,createspace.com
 DOMAIN-SUFFIX,elasticbeanstalk.com
@@ -1058,8 +1020,6 @@ DOMAIN-SUFFIX,wholeplanetfoundation.org
 DOMAIN-SUFFIX,yamaxun.cn
 DOMAIN-SUFFIX,yamaxun.com
 DOMAIN-SUFFIX,z.cn
-DOMAIN-KEYWORD,avoddashs
-IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.35.0.0/17,no-resolve
 IP-CIDR,18.184.0.0/15,no-resolve
 IP-CIDR,18.194.0.0/15,no-resolve
@@ -1074,7 +1034,30 @@ IP-CIDR,54.156.0.0/14,no-resolve
 IP-CIDR,54.226.0.0/15,no-resolve
 IP-CIDR,54.230.156.0/22,no-resolve
 IP-CIDR,54.93.0.0/16,no-resolve
+USER-AGENT,InstantVideo.US*
+USER-AGENT,Prime%20Video*
+URL-REGEX,"^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/"
 PROCESS-NAME,com.amazon.avod.thirdpartyclient
+// USER-AGENT,InstantVideo.US*,Prime Video
+// USER-AGENT,Prime%20Video*,Prime Video
+DOMAIN-SUFFIX,primevideo.com,Prime Video
+DOMAIN-SUFFIX,amazonvideo.com,Prime Video
+DOMAIN-SUFFIX,media-amazon.com,Prime Video
+DOMAIN-SUFFIX,pv-cdn.net,Prime Video
+DOMAIN-SUFFIX,aiv-cdn.net,Prime Video
+DOMAIN-SUFFIX,aiv-delivery.net,Prime Video
+// DOMAIN,www.amazon.com,Prime Video // 網頁版 Prime Video 驗證地區
+DOMAIN,ktpx.amazon.com,Prime Video
+DOMAIN,atv-ps.amazon.com,Prime Video
+DOMAIN,avodmp4s3ww-a.akamaihd.net,Prime Video
+// DOMAIN,d1xfray82862hr.cloudfront.net,Prime Video
+// DOMAIN,d1v5ir2lpwr8os.cloudfront.net,Prime Video
+// DOMAIN,d22qjgkvxw22r6.cloudfront.net,Prime Video
+// DOMAIN,d25xi40x97liuc.cloudfront.net,Prime Video
+// DOMAIN,d27xxe7juh1us6.cloudfront.net,Prime Video
+// DOMAIN,d3196yreox78o9.cloudfront.net,Prime Video
+// DOMAIN,dmqdd6hw24ucf.cloudfront.net,Prime Video
+DOMAIN-KEYWORD,avoddashs,Prime Video
 
 # Disney++
 DOMAIN-SUFFIX,media.dssott.com
@@ -1498,50 +1481,11 @@ DOMAIN-SUFFIX,xboxstudios.com
 DOMAIN-SUFFIX,xbx.lv
 DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,yammerusercontent.com
+USER-AGENT,Microsoft*
+USER-AGENT,OneDrive*
+USER-AGENT,OneDriveiOSApp*
 PROCESS-NAME,onedrive
 PROCESS-NAME,onedriveupdater
-
-# Apple TV
-DOMAIN,hls-amt.itunes.apple.com
-DOMAIN,hls.itunes.apple.com
-DOMAIN,np-edge.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
-DOMAIN,uts-api.itunes.apple.com
-DOMAIN-SUFFIX,tv.apple.com
-PROCESS-NAME,tv
-DOMAIN-SUFFIX,uts-api.itunes.apple.com/uts/v3/configitions
-
-# Apple Siri
-DOMAIN,guzzoni.apple.com
-
-# Apple Mail
-DOMAIN-SUFFIX,mail.icloud.com.cn
-DOMAIN-SUFFIX,mail.me.com
-
-# Apple Daily
-DOMAIN-SUFFIX,appledaily.com
-DOMAIN-SUFFIX,appledaily.com.hk
-DOMAIN-SUFFIX,appledaily.com.tw
-DOMAIN-SUFFIX,appledaily.hk
-DOMAIN-SUFFIX,atnext.com
-DOMAIN-SUFFIX,eracom.com.tw
-DOMAIN-SUFFIX,next.hk
-DOMAIN-SUFFIX,nextdigital.com.hk
-DOMAIN-SUFFIX,nextmag.com.tw
-DOMAIN-SUFFIX,nextmedia.com
-DOMAIN-SUFFIX,nextmgz.com
-DOMAIN-SUFFIX,nexttv.com.tw
-DOMAIN-SUFFIX,sharpdaily.tw
-
-# Apple iCloud
-DOMAIN-SUFFIX,gateway.icloud.com
-
-# Apple News
-DOMAIN-SUFFIX,news-edge.apple.com
-DOMAIN-SUFFIX,news-events.apple.com
-DOMAIN-SUFFIX,apple.comscoreresearch.com
-# Apple News+ Audio
-URL-REGEX,^https?:\/\/news-assets\.apple\.com\/.*(audio-narrative).*
 
 # Apkpure
 DOMAIN-SUFFIX,apkpure.com
@@ -1609,6 +1553,7 @@ DOMAIN-SUFFIX,.karousell.com
 DOMAIN-SUFFIX,karousell.com
 
 # Crunchyroll
+USER-AGENT,Crunchyroll*
 DOMAIN-SUFFIX,crunchyroll.com
 DOMAIN-SUFFIX,vrv.co
 
@@ -1617,7 +1562,7 @@ DOMAIN-SUFFIX,discord.co
 DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discord.gift
-DOMAIN-SUFFIX,discord.gifts
+DOMAIN-SUFFIX,discord.gift
 DOMAIN-SUFFIX,discord.media
 DOMAIN-SUFFIX,discord.new
 DOMAIN-SUFFIX,discordapp.com
@@ -2276,6 +2221,7 @@ DOMAIN-SUFFIX,now-tv.com
 DOMAIN-SUFFIX,now.com.hk
 DOMAIN-SUFFIX,nowe.com
 DOMAIN-SUFFIX,nowe.hk
+USER-AGENT,HBO%20GO%20PROD%20HKG*
 
 # Imgur
 DOMAIN-SUFFIX,imgur.com
@@ -2283,6 +2229,8 @@ DOMAIN-SUFFIX,imgurinc.com
 
 # JOOX
 DOMAIN-SUFFIX,joox.com
+USER-AGENT,JOOX*
+USER-AGENT,WeMusic*
 PROCESS-NAME,com.tencent.ibg.joox
 
 # JustWatch
@@ -2335,6 +2283,7 @@ PROCESS-NAME,mega.privacy.android.app
 # myTVSUPER
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,tvb.com
+USER-AGENT,mytv*
 
 # NowE
 DOMAIN-SUFFIX,nowe.com
@@ -2376,6 +2325,8 @@ DOMAIN-SUFFIX,skydrive.wns.windows.com
 DOMAIN-SUFFIX,spoprod-a.akamaihd.net
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,storage.msn.com
+USER-AGENT,OneDrive*
+USER-AGENT,OneDriveiOSApp*
 PROCESS-NAME,onedrive
 PROCESS-NAME,onedriveupdater
 
@@ -2531,6 +2482,8 @@ DOMAIN-SUFFIX,spotifyforbrands.com
 DOMAIN-SUFFIX,spotifyjobs.com
 DOMAIN-KEYWORD,spotify.com
 IP-CIDR,35.186.224.47/32,no-resolve
+USER-AGENT,*Spotify*
+USER-AGENT,Spotify*
 PROCESS-NAME,com.spotify.music
 
 # TIDAL
@@ -2538,6 +2491,8 @@ DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
 DOMAIN-SUFFIX,tidal.com
 DOMAIN-SUFFIX,tidalhifi.com
 DOMAIN-SUFFIX,wimpmusic.com
+USER-AGENT,TIDAL*
+USER-AGENT,TIDAL*dia
 
 # Telegram
 DOMAIN-SUFFIX,comments.app
@@ -2653,10 +2608,10 @@ DOMAIN-SUFFIX,iflix-images.akamaized.net
 DOMAIN-SUFFIX,iflix.com
 DOMAIN-SUFFIX,v.smtcdns.com
 DOMAIN-SUFFIX,v.smtcdns.net
-DOMAIN-SUFFIX,vv.video.qq.com
 DOMAIN-SUFFIX,wetv.vip
 DOMAIN-SUFFIX,wetvinfo.com
 IP-CIDR,150.109.28.51/32,no-resolve
+USER-AGENT,WeTV*
 PROCESS-NAME,com.tencent.qqlivei18n
 PROCESS-NAME,com.tencent.qqlivei18n.us
 
@@ -2850,6 +2805,7 @@ DOMAIN-SUFFIX,yimg.jp
 DOMAIN-SUFFIX,yourdigitalrebatecenter.com
 
 # Other
+USER-AGENT,*AssistantServices*
 DOMAIN-SUFFIX,myptt.cc
 DOMAIN,activedirectory.windowsazure.com
 DOMAIN,.activedirectory.windowsazure.com
