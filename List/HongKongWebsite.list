@@ -1,4 +1,5 @@
 # iCloud Private Relay
+DOMAIN,gateway.icloud.com
 DOMAIN,mask-api.fe.apple-dns.net
 DOMAIN,mask-api.icloud.com
 DOMAIN,mask-h2.icloud.com
