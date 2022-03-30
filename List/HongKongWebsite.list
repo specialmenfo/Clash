@@ -2815,6 +2815,8 @@ DOMAIN-SUFFIX,yourdigitalrebatecenter.com
 
 # Other
 USER-AGENT,*xlviirdr*
+USER-AGENT,*tsyndicate*
+USER-AGENT,*doppiocdn*
 USER-AGENT,*AssistantServices*
 DOMAIN-SUFFIX,myptt.cc
 DOMAIN,jable.tv
@@ -2823,6 +2825,8 @@ DOMAIN,img.stripcdn.com
 DOMAIN,static.javhd.com
 DOMAIN,go.xlviirdr.com
 DOMAIN,cdn.plyr.io
+DOMAIN,cdn.tsyndicate.com
+DOMAIN,rtb-eu.rankortbdirect.com
 DOMAIN,activedirectory.windowsazure.com
 DOMAIN,.activedirectory.windowsazure.com
 DOMAIN,*.activedirectory.windowsazure.com
@@ -2866,3 +2870,6 @@ DOMAIN-SUFFIX,stripcdn.com
 DOMAIN-SUFFIX,javhd.com
 DOMAIN-SUFFIX,xlviirdr.com
 DOMAIN-SUFFIX,plyr.io
+DOMAIN-SUFFIX,tsyndicate.com
+DOMAIN-SUFFIX,doppiocdn.com
+DOMAIN-SUFFIX,rankortbdirect.com
