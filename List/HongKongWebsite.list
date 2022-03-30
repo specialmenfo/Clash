@@ -2816,6 +2816,10 @@ DOMAIN-SUFFIX,yourdigitalrebatecenter.com
 # Other
 USER-AGENT,*AssistantServices*
 DOMAIN-SUFFIX,myptt.cc
+DOMAIN,jable.tv
+DOMAIN,st.stripcdn.com
+DOMAIN,img.stripcdn.com
+DOMAIN,static.javhd.com
 DOMAIN,activedirectory.windowsazure.com
 DOMAIN,.activedirectory.windowsazure.com
 DOMAIN,*.activedirectory.windowsazure.com
@@ -2855,3 +2859,5 @@ DOMAIN-SUFFIX,thumb-g1.toomics.info
 DOMAIN,switchr.imagility.io
 DOMAIN-SUFFIX,switchr.imagility.io
 DOMAIN-SUFFIX,jable.tv
+DOMAIN-SUFFIX,stripcdn.com
+DOMAIN-SUFFIX,javhd.com
