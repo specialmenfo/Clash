@@ -2820,6 +2820,7 @@ USER-AGENT,*xlviirdr*
 USER-AGENT,*tsyndicate*
 USER-AGENT,*doppiocdn*
 USER-AGENT,*AssistantServices*
+USER-AGENT,*pornhub*
 DOMAIN-SUFFIX,myptt.cc
 DOMAIN,jable.tv
 DOMAIN,st.stripcdn.com
@@ -2875,3 +2876,4 @@ DOMAIN-SUFFIX,plyr.io
 DOMAIN-SUFFIX,tsyndicate.com
 DOMAIN-SUFFIX,doppiocdn.com
 DOMAIN-SUFFIX,rankortbdirect.com
+DOMAIN-SUFFIX,pornhub.com
