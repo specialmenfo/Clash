@@ -2814,6 +2814,8 @@ DOMAIN-SUFFIX,yimg.jp
 DOMAIN-SUFFIX,yourdigitalrebatecenter.com
 
 # Other
+IP-CIDR,149.154.175.50/20,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
 USER-AGENT,*xlviirdr*
 USER-AGENT,*tsyndicate*
 USER-AGENT,*doppiocdn*
