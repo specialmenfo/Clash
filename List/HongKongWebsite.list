@@ -1068,10 +1068,6 @@ DOMAIN,avodmp4s3ww-a.akamaihd.net,Prime Video
 // DOMAIN,dmqdd6hw24ucf.cloudfront.net,Prime Video
 DOMAIN-KEYWORD,avoddashs,Prime Video
 
-# Disney++
-DOMAIN-SUFFIX,media.dssott.com
-DOMAIN,prod-ripcut-delivery.disney-plus.net
-
 # Duckduckgo
 DOMAIN-SUFFIX,cispaletter.com
 DOMAIN-SUFFIX,cispaletter.org
